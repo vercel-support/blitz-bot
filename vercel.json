@@ -3,5 +3,6 @@
     "api/webhooks.ts": {
       "includeFiles": "app/*"
     }
-  }
+  },
+  "build": { "env": { "FORCE_RUNTIME_TAG": "canary" } }
 }
